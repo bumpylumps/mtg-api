@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  background-color: #F5CBA7;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 30% 0 10%;
+  float: right;
+  border-radius: 4%;
+}
+
+section{
+  font-size: 1.3em;
+  color:#7B241C;
+  margin: 2% 10%;
+}
+
+
+
+#inputArea{
+  margin: 2% 10%;
+}
+
+#inputArea > input {
+  color: #7B241C;
+}
+
+#inputArea > button{
+  color: #7B241C;
+  border-radius: 7%;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
